@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-wrapper">
+            <h1>Your Beauty Voyage Guide<br>signup</h1>
+            <p>Your best choice for beauty advice and product recommendations!!</p>    
+        <form action="signup.php" method="POST" id="signupForm">
+            <div class="input-group">
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <button type="submit" class="btn">Sign Up</button>
+        </form>
+        <h1>if you are not new ,you can login!!</h>
+            <a href="login.html">LOGIN</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
